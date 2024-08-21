@@ -204,6 +204,8 @@ vim.keymap.set('i', ';;', '<Esc>')
 -- Try this so you really need to mean to record something
 -- Playback is still @ + recording letter
 vim.keymap.set('n', '<Leader>q', 'q')
+-- Use Leader W for saving
+vim.keymap.set('n', '<Leader>w', '<cmd>w<CR>')
 vim.keymap.set('n', 'q', '<Nop>')
 
 -- ====================================== --
